@@ -1,0 +1,36 @@
+body {
+  background-color: #e6e6e6;
+  font-family: "Helvetica Nue", Helvetica, sans-serif;
+}
+
+.NavMenuTitle {
+  color: #d32323;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.logo{
+  color: #d32323;   
+}
+
+#cities {
+  border-top: 1px solid black; /*why doesn't this work??*/
+  color: #666666;
+  font-size: 14px;
+  display: inline;
+  margin: 0 0 0 3px;
+  text-align: center;
+}
+
+#center {
+  vertical-align: middle;
+  display:inline-block;
+}
+/*Why doesn't this work?  Because I'm using React Boostrap (Bootstrap 3), not Reactstrap (Bootstrap 4).*/
+
+#copyright {
+  color: #666666;
+  text-align: center;
+  font-size: 13px;
+  line-height: 18px;
+}
